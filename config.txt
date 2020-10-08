@@ -1,0 +1,4 @@
+# Configuration file
+
+# Path to folder like home/arblade/myfolder
+default_path=/home/theophane/Musique/yt-download/

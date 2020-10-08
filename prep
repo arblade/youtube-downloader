@@ -1,0 +1,2 @@
+pyrcc5 test.qrc -o test_rc.py
+pyuic5 mainwindow.ui -o GUI.py
