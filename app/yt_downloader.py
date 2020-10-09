@@ -50,6 +50,10 @@ class MyApp(QtWidgets.QMainWindow, GUI.Ui_MainWindow):
             elems=text.split(" ")
             for elem in elems:
                 elem.replace(" ", "")
+
+            if len(elems)>8:
+                elems[7]=elems[7][:-11]
+                elems=elems[:8]
             print(elems)
 
             self.progressBar.setValue(float(elems[1][0:-1]))
