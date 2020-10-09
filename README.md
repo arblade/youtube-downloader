@@ -16,3 +16,5 @@ default_path=/home/arblade/Documents/myfolder
 1. Choose your folder where to download your music / videos files
 2. Paste your link.
 3. Under gnome, a notification will pop up to inform you that the download is complete
+
+![alt text](yt_capture.png)
