@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'mainwindow.ui'
+# Form implementation generated from reading ui file 'app/mainwindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.12.3
 #
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow(object):
@@ -51,6 +51,9 @@ class Ui_MainWindow(object):
         self.checkBox = QtWidgets.QCheckBox(self.centralWidget)
         self.checkBox.setObjectName("checkBox")
         self.verticalLayout.addWidget(self.checkBox)
+        self.checkBox_video = QtWidgets.QCheckBox(self.centralWidget)
+        self.checkBox_video.setObjectName("checkBox_video")
+        self.verticalLayout.addWidget(self.checkBox_video)
         self.state = QtWidgets.QLabel(self.centralWidget)
         self.state.setWordWrap(True)
         self.state.setObjectName("state")
@@ -78,12 +81,14 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><img src=\":/name/icon_little.png\"/></p></body></html>"))
+        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><img src=\":/name/assets/icon_little.png\"/></p></body></html>"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p>Link</p></body></html>"))
         self.label.setText(_translate("MainWindow", "Directory "))
         self.lineEdit.setPlaceholderText(_translate("MainWindow", "Path of download, default if empty"))
         self.pushButton_2.setText(_translate("MainWindow", "Browse"))
-        self.lineEdit_link.setPlaceholderText(_translate("MainWindow", "Link of the video or playlist"))
+        self.lineEdit_link.setPlaceholderText(_translate("MainWindow", "Link of the video, music or playlist"))
         self.checkBox.setText(_translate("MainWindow", "playlist in separate folder"))
+        self.checkBox_video.setText(_translate("MainWindow", "video"))
         self.state.setText(_translate("MainWindow", "<html><head/><body><p>State : None</p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "Download"))
+import app.test_rc

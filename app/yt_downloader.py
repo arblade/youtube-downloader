@@ -5,17 +5,15 @@ import sys
 from app import GUI
 from app.Model import *
 from gi.repository import Notify,GdkPixbuf
+from pathlib import Path
 
 
 
 class MyApp(QtWidgets.QMainWindow, GUI.Ui_MainWindow):
-    def __init__(self, parent=None):
+    def __init__(self, model,parent=None):
         super(MyApp, self).__init__(parent)
         self.setupUi(self)
-
-        # Connect a button to a function
-        app_icon = QtGui.QIcon('/home/theophane/Documents/youtube-downloader/yt-downloader/icon.png')
-        self.setWindowIcon(app_icon)
+        self.model=model
         self.pushButton.clicked.connect(self.run)
         self.process=None
         self.progressBar.setValue(0)
@@ -65,7 +63,7 @@ class MyApp(QtWidgets.QMainWindow, GUI.Ui_MainWindow):
         self.progressBar.setValue(100)
         Notify.init("App Name")
         # Use GdkPixbuf to create the proper image type
-        image = GdkPixbuf.Pixbuf.new_from_file(model.folder+"/icon.png")
+        image = GdkPixbuf.Pixbuf.new_from_file(self.model.dir+"/assets/icon.png")
 
         # Use the GdkPixbuf image
         summary = "Download Complete !"
@@ -85,26 +83,30 @@ class MyApp(QtWidgets.QMainWindow, GUI.Ui_MainWindow):
         link = self.lineEdit_link.text()
 
         if self.lineEdit.text() :
-            if not model.set_path(str(self.lineEdit.text())):
+            if not self.model.set_path(str(self.lineEdit.text())):
                 self.state.setText("State : Cannot find the path")
                 return
             else :
-                path=model.get_path()
+                path=self.model.get_path()
         else :
-            if not model.set_config():
+            if not self.model.set_config():
                 self.state.setText("State : Cannot find the configuration file")
                 return
             else :
-                path=model.get_config()
+                path_music,path_video=self.model.get_config()
         if link[0:4]=="http": #petite vérification 
             self.state.setText("State : Launching Download")
             self.create_process() # on crée le process
-            if not self.checkBox.isChecked():
+            if not self.checkBox.isChecked() and not self.checkBox_video.isChecked():
                 #cmd = 'youtube-dl -x --embed-thumbnail --format bestaudio --output \"~/Musique/yt-download/%(title)s.%(ext)s\" {}'.format(link)
-                self.process.start('youtube-dl',['-x','--embed-thumbnail','--format', 'bestaudio', '--output', path+'/%(title)s.%(ext)s\"', link])
-            else :
+                self.process.start('youtube-dl',['-x','--embed-thumbnail','--format', 'bestaudio', '--output', path_music+'/%(title)s.%(ext)s', link])
+            elif self.checkBox.isChecked() and not self.checkBox_video.isChecked():
                 #cmd = 'youtube-dl -x --embed-thumbnail --format bestaudio --output \"~/Musique/yt-download/%(playlist)s/%(title)s.%(ext)s\" {}'.format(link)
-                self.process.start('youtube-dl',['-x','--embed-thumbnail','--format', 'bestaudio', '--output',path+'/%(playlist)s/%(title)s.%(ext)s\"', link])
+                self.process.start('youtube-dl',['-x','--embed-thumbnail','--format', 'bestaudio', '--output',path_music+'/%(playlist)s/%(title)s.%(ext)s', link])
+            elif self.checkBox_video.isChecked():
+                self.process.start('youtube-dl',['-f','mp4','--output',path_video+'/%(title)s.%(ext)s', link])
+            else :
+                self.process.start('youtube-dl',['--output',path_video+'/%(playlist)s/%(title)s.%(ext)s', link])
             #os.system(cmd)
             #subp.run(['youtube-dl','-x','--embed-thumbnail','--format', 'bestaudio', '--output', '\"~/Musique/yt-download/%(title)s.%(ext)s\"', link],capture_output=True, text=True)
             #process=subp.Popen(['youtube-dl','-x','--embed-thumbnail','--format', 'bestaudio', '--output', '\"~/Musique/yt-download/%(title)s.%(ext)s\"', link],stdout=subp.PIPE)
@@ -115,12 +117,5 @@ class MyApp(QtWidgets.QMainWindow, GUI.Ui_MainWindow):
             self.state.setText("State : Stopped : wrong link")
             return
         
-if __name__ == '__main__':
-    model=Model()
-    app = QtWidgets.QApplication(sys.argv)
-    form = MyApp()
-    form.setWindowIcon(QtGui.QIcon(model.folder+'/icon.png'))
-    form.setWindowTitle("Youtube-Downloader")
-    form.show()
-    app.exec_()
+
  

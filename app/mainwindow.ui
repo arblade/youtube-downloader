@@ -18,7 +18,7 @@
     <item>
      <widget class="QLabel" name="label_3">
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/name/icon_little.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;:/name/assets/icon_little.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -76,7 +76,7 @@
       <item row="1" column="1">
        <widget class="QLineEdit" name="lineEdit_link">
         <property name="placeholderText">
-         <string>Link of the video or playlist</string>
+         <string>Link of the video, music or playlist</string>
         </property>
        </widget>
       </item>
@@ -86,6 +86,13 @@
      <widget class="QCheckBox" name="checkBox">
       <property name="text">
        <string>playlist in separate folder</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_video">
+      <property name="text">
+       <string>video</string>
       </property>
      </widget>
     </item>

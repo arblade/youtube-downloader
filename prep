@@ -1,2 +1,3 @@
-pyrcc5 test.qrc -o test_rc.py
-pyuic5 mainwindow.ui -o GUI.py
+pyrcc5 app/test.qrc -o app/test_rc.py
+pyuic5 app/mainwindow.ui -o app/GUI.py
+echo '[To do] Pensez à changer manuellement dans GUI.py le import test_rc en app.test_rc'
