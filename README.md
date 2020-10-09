@@ -6,8 +6,9 @@
 ```
 # Configuration file
 
-# Put there the absolute path to the folder (like the example bellow :
-default_path=/home/arblade/Documents/myfolder
+# Put there the absolute path to the folder where you want to put by default music and video downloaded (like the example bellow :
+default_path_music=/home/arblade/Musics/myfolder
+default_path_video=/home/arblade/Videos/myfolder
 ```
 3. Launch `yt-downloader.py` with Python 3.6
 
