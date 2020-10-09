@@ -2,11 +2,8 @@
 from PyQt5 import QtGui, QtCore
 from PyQt5 import QtWidgets
 import sys
-import os
-import subprocess as subp
-import GUI # Your generated .py file
-import re
-from Model import *
+from app import GUI
+from app.Model import *
 from gi.repository import Notify,GdkPixbuf
 
 

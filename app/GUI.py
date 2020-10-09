@@ -7,7 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 
 
 class Ui_MainWindow(object):
@@ -87,4 +87,3 @@ class Ui_MainWindow(object):
         self.checkBox.setText(_translate("MainWindow", "playlist in separate folder"))
         self.state.setText(_translate("MainWindow", "<html><head/><body><p>State : None</p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "Download"))
-import test_rc

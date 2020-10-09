@@ -4,7 +4,7 @@ class Model():
     def __init__(self):
         self.path=None
         self.folder = os.path.dirname(os.path.abspath(__file__))
-        self.config=self.folder+'/config.txt'
+        self.config=self.folder+'/../config.txt'
 
     def set_config(self):
         if not self.fileIsValid(self.config):

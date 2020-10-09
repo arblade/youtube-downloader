@@ -17,4 +17,4 @@ default_path=/home/arblade/Documents/myfolder
 2. Paste your link.
 3. Under gnome, a notification will pop up to inform you that the download is complete
 
-![alt text](yt_capture.png)
+![alt text](assets/yt_capture.png)
