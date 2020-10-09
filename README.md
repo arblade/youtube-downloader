@@ -1,5 +1,11 @@
 # youtube-downloader
 
+## News
+Video download is now integrated.
+Futures improvements : 
+- intelligent download with geo parameters
+- list of link to download
+
 ## Installation
 1. Clone the repo
 2. Create a config.txt file like bellow :
