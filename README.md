@@ -2,7 +2,7 @@
 
 ## News
 Video download is now integrated.
-Futures improvements : 
+Future improvements : 
 - intelligent download with geo parameters
 - list of link to download
 
