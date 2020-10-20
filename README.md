@@ -1,6 +1,7 @@
 # youtube-downloader
 
 [![Generic badge](https://img.shields.io/badge/OS-Linux-blue.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/OS-Windows-blue.svg)](https://shields.io/)
 
 ## News
 Video download is now integrated.
