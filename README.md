@@ -36,5 +36,6 @@ default_path_video=/home/arblade/Videos/myfolder
 1. Choose your folder where to download your music / videos files
 2. Paste your link.
 3. Under gnome, a notification will pop up to inform you that the download is complete
+**Important** : Sometimes, the conversion won't work : this is a bug, you have then to do it again, but this time launching the app with admin rights.
 
 ![alt text](assets/yt_capture.png)
