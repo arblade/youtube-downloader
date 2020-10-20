@@ -8,8 +8,8 @@ Video download is now integrated.
 Future improvements : 
 - intelligent download with geo parameters
 - list of link to download
-
-## Installation
+## Linux
+### Installation
 1. Clone the repo
 2. Create a config.txt file like bellow :
 ```
@@ -20,6 +20,16 @@ default_path_music=/home/arblade/Musics/myfolder
 default_path_video=/home/arblade/Videos/myfolder
 ```
 3. Launch `yt-downloader.py` with Python 3.6
+
+## Windows
+### Installation 
+1. Clone or download the repo.
+
+2. Go to the windows folder and check the `install.bat` file, then execute it with administrators rights
+
+3. It will download youtube-download and all necessary packages.
+
+4. An icon 'Youtbe Downloader' should have appeared on your desktop : you canb test the app !
 
 ## Use 
 
