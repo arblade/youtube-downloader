@@ -35,6 +35,15 @@ default_path_video=/home/arblade/Videos/myfolder
 
 4. An icon 'Youtbe Downloader' should have appeared on your desktop : you canb test the app !
 
+5. You can create a config.txt file in `\windows\youtube-downloader\` :
+```
+# Configuration file
+
+# Put there the absolute path to the folder where you want to put by default music and video downloaded (like the example bellow :
+default_path_music=C:\Users\arblade\Music\
+default_path_video=C:\Users\arbalde\Videos\
+```
+
 ## Use 
 
 1. Choose your folder where to download your music / videos files
