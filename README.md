@@ -33,7 +33,7 @@ default_path_video=/home/arblade/Videos/myfolder
 
 3. It will download youtube-download and all necessary packages.
 
-4. An icon 'Youtbe Downloader' should have appeared on your desktop : you canb test the app !
+4. An icon 'Youtbe Downloader' should have appeared on your desktop : you can test the app !
 
 5. You can create a config.txt file in `\windows\youtube-downloader\` :
 ```
