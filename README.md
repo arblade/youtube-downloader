@@ -8,8 +8,8 @@
 Windows is now integrated.
 Video download is now integrated.
 Future improvements : 
-- correct bugs of the progress bar
-- correct bugs of first launch
+- correct bugs of the progress bar : Done
+- correct bugs of first launch : Done
 - intelligent download with geo parameters
 - list of link to download
 ## Linux
