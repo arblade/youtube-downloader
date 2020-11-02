@@ -5,7 +5,7 @@
 [![Generic badge](https://img.shields.io/badge/Deployment-ongoing-orange.svg)](https://shields.io/)
 
 ## News
-Youtube-dl is now working on our files for windows
+Youtube-dl is now working on our files for windows.
 Windows is now integrated.
 Video download is now integrated.
 Future improvements : 
