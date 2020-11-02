@@ -1,0 +1,3 @@
+@echo [info] Download of recent youtube-dl...
+powershell -Command "Invoke-WebRequest https://youtube-dl.org/downloads/latest/youtube-dl.exe -OutFile C:\Windows\youtube-dl.exe"
+pause
