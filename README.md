@@ -29,7 +29,7 @@ default_path_video=/home/arblade/Videos/myfolder
 ## Windows
 ### Installation 
 
-**So simple** : Run the run_windows.bat file on your computer **as admin**.
+**So simple** : Run the run_windows.bat`` file on your computer **as admin**.
 
 ## Use 
 
