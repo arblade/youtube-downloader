@@ -28,22 +28,8 @@ default_path_video=/home/arblade/Videos/myfolder
 
 ## Windows
 ### Installation 
-1. Clone or download the repo.
 
-2. Go to the windows folder and check the `install.bat` file, then execute it with administrators rights
-
-3. It will download youtube-download and all necessary packages.
-
-4. An icon 'Youtbe Downloader' should have appeared on your desktop : you can test the app !
-
-5. You can create a config.txt file in `\windows\youtube-downloader\` :
-```
-# Configuration file
-
-# Put there the absolute path to the folder where you want to put by default music and video downloaded (like the example bellow :
-default_path_music=C:\Users\arblade\Music\
-default_path_video=C:\Users\arbalde\Videos\
-```
+**So simple** : Run the run_windows.bat file on your computer **as admin**.
 
 ## Use 
 
