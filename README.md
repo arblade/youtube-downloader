@@ -3,6 +3,7 @@
 [![Generic badge](https://img.shields.io/badge/OS-Linux-blue.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/OS-Windows-blue.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Deployment-ongoing-orange.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/License-MIT-green.svg)](https://shields.io/)
 
 ## News
 Youtube-dl is now working on our files for windows.
