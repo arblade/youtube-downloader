@@ -1,0 +1,7 @@
+# Configuration file
+
+# Path to folder like home/arblade/myfolder
+
+default_path_music=
+default_path_video=
+youtube-dl_version=youtube-dl
