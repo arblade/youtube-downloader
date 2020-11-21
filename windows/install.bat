@@ -26,4 +26,3 @@ del "C:\Windows\Temp\7z.exe"
 del "C:\Windows\Temp\ffmpeg.7z"
 @echo [info] Closing the terminal and cleaning original temp folder...
 timeout 5
-RMDIR "C:\Windows\Temp\youtube-downloader" /S /Q
