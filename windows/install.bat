@@ -13,12 +13,17 @@ powershell -Command "C:\Windows\Temp\7z.exe"
 @echo [info] Download of ffmpeg...
 powershell -Command "Invoke-WebRequest https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z -OutFile C:\Windows\Temp\ffmpeg.7z"
 @echo [info] Extraction of ffmpeg
-powershell -Command "& 'C:\Program Files\7-Zip\7z.exe' x -oC:\Windows\ C:\Windows\Temp\ffmpeg.7z"
-@echo [info] Copy file ffmpeg
-xcopy C:\Windows\ffmpeg-2020-10-17-git-62073cfa97-full_build\bin\ffmpeg.exe C:\Windows\
+powershell -Command "& 'C:\Program Files\7-Zip\7z.exe' e C:\Windows\Temp\ffmpeg.7z -oC:\Windows\ ffmpeg.exe -r "
 @echo [info] Copy of Youtube-Downloader files
 cd /d %~dp0
 robocopy ./youtube-downloader/ "C:\Program Files\youtube-downloader" /E
 xcopy youtube-downloader\Youtube-Downloader.lnk %UserProfile%\Desktop\
-@echo [info] Close the terminal ...
-pause
+@echo [info] Deleting archive...
+@echo [info] Deleting temp files...
+del "C:\Windows\Temp\main.zip"
+del "C:\Windows\Temp\add_on_yt-dl.exe"
+del "C:\Windows\Temp\7z.exe"
+del "C:\Windows\Temp\ffmpeg.7z"
+@echo [info] Closing the terminal and cleaning original temp folder...
+timeout 5
+RMDIR "C:\Windows\Temp\youtube-downloader" /S /Q
