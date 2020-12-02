@@ -30,7 +30,7 @@ default_path_video=/home/arblade/Videos/myfolder
 ## Windows
 ### Installation 
 
-**So simple** : Only download and run the `run_windows.bat` file on your computer **as admin**.
+Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.0.1/Setup.exe)
 
 ## Use 
 
