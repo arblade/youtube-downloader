@@ -40,4 +40,4 @@ default_path_video=/home/arblade/Videos/myfolder
 
 **Important** : Sometimes, the conversion won't work : this is a bug, you have then to do it again, but this time launching the app with admin rights.
 
-![alt text](assets/yt_capture.png)
+![alt text](assets/yt_downloader_capv3.0.1.png)
