@@ -30,7 +30,7 @@ default_path_video=/home/arblade/Videos/myfolder
 ## Windows
 ### Installation 
 
-Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.0.1/Setup.exe)
+Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.0.2/Setup.exe). If this does not work try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.0.2/Setup.exe)
 
 ## Use 
 
