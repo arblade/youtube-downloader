@@ -30,16 +30,19 @@ default_path_video=/home/arblade/Videos/myfolder
 ## Windows
 ### Installation 
 
-### 3 ways
+### 2 ways
+
 1. Simple :
+
 Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe). If you installed this app before and you want the last version try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe)
 
-2. More complex, but you understand what is going on :
+2. If you want to understand what is going on / or if you dont trust the `Setup.exe` :
 
 - Donwload the `.zip`
 - Extract it where you want in your computer.
 - Execute the `install.bat` as admin. You can before read all instructions, to check that this file is safe.
-- To understand what is done through this file : [clik there](#explanation)
+- To understand what is done go through this file : [click there](#explanation)
+
 ## Use 
 
 1. Choose your folder where to download your music / videos files
