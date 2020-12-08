@@ -22,6 +22,7 @@ Future improvements :
 ### 2 ways
 
 1. Simple :
+
 **Note** : *Your antivirus / or Windows defender may alert you on this file, i tried to fix this, but i did not success. It seems that if you are not an official developper you are note alllowed to write app that requires particular features, thank you Windows :( !...
 If you you want to check what is run by this `.exe`, [click there](#explanation_exe)*
 Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe). If you installed this app before and you want the last version try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe)
