@@ -97,7 +97,7 @@ del "C:\Windows\Temp\ffmpeg.7z"
 pause
 ```
 1. Download of youtube-dl
-2. Donwload of youtube-dlc (an other version of youtube-dl)
+2. Download of youtube-dlc (an other version of youtube-dl)
 3. Then this is download of add-ons to get all components working
 4. 7zip is downloaded to extract ffmpeg archive
 5. Ffmpeg is downloaded then extracted.
