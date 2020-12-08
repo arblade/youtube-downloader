@@ -50,7 +50,7 @@ Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/d
 
 ![alt text](assets/yt_downloader_capv3.0.1.PNG)
 
-## <a id="explanation"></a>Explanation of the commands passed through the `.bat` file :
+## <a id="explanation"></a>Explanation of commands passed through the `install.bat` file :
 
 ```batch
 
