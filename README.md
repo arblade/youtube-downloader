@@ -23,10 +23,11 @@ Future improvements :
 
 1. Simple :
 
-**Note** : *Your antivirus / or Windows defender may alert you on this file, i tried to fix this, but i did not success. It seems that if you are not an official developper you are note allowed to write app that requires particular features, thank you Windows :( !...*
+Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe). If you installed this app before and you want the last version try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe)
 
 If you you want to check what is run by this `.exe`, [click there](#explanation_exe)
-Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe). If you installed this app before and you want the last version try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe)
+
+**Note** : *Your antivirus / or Windows defender may alert you on this file, i tried to fix this, but i did not success. It seems that if you are not an official developper you are note allowed to write app that requires particular features, thank you Windows :( !...*
 
 2. If you want to understand what is going on / or if you dont trust the `Setup.exe` :
 
