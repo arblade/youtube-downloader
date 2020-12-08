@@ -1,2 +1,0 @@
-powershell.exe
-update_app.bat
