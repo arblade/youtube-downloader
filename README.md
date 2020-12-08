@@ -30,7 +30,7 @@ Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/d
 
 2. If you want to understand what is going on / or if you dont trust the `Setup.exe` :
 
-- Donwload the `.zip`
+- Download the `.zip`
 - Extract it where you want in your computer.
 - Execute the `Setup.bat` as admin. You can before read all instructions, to check that this file is safe.
 - To understand what is done go through this file : [click there](#explanation)
