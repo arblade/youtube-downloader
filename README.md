@@ -18,17 +18,19 @@ Future improvements :
 ## Windows
 ### Installation 
 
+
 ### 2 ways
 
 1. Simple :
-
+** Note ** : Your antivirus / or Windows defender may alert you on this file, i tried to fix this, but i did not success. It seems that if you are not an official developper you are note alllowed to write app that requires particular features, thank you Windows :( !...
+If you you want to check what is run by this `.exe`, [click there](#explanation_exe)
 Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe). If you installed this app before and you want the last version try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe)
 
 2. If you want to understand what is going on / or if you dont trust the `Setup.exe` :
 
 - Donwload the `.zip`
 - Extract it where you want in your computer.
-- Execute the `install.bat` (which is in the `windows` folder) as admin. You can before read all instructions, to check that this file is safe.
+- Execute the `Setup.bat` as admin. You can before read all instructions, to check that this file is safe.
 - To understand what is done go through this file : [click there](#explanation)
 - Finally you can delete extracted files
 
@@ -54,8 +56,11 @@ default_path_video=/home/arblade/Videos/myfolder
 
 
 ![alt text](assets/yt_downloader_capv3.0.1.PNG)
+## <a id="explanation_exe"></a>Explanation of commands passed through the `install.bat` file :
 
-## <a id="explanation"></a>Explanation of commands passed through the `install.bat` file :
+This `.exe` file display you a license, and then download the archive of this project. This archive is copied to `Windows\Temp`. Then the `install.bat` (on this project in  `windows/install.bat` is run (precisions below).
+
+## <a id="explanation"></a>Explanation of commands passed through the `Setup.bat` file :
 
 ```batch
 
@@ -82,7 +87,6 @@ icacls "C:\Program Files\youtube-downloader\config.txt" /grant "*S-1-5-32-545:(W
 xcopy youtube-downloader\Youtube-Downloader.lnk %UserProfile%\Desktop\
 @echo [info] Deleting archive...
 @echo [info] Deleting temp files...
-del "C:\Windows\Temp\main.zip"
 del "C:\Windows\Temp\add_on_yt-dl.exe"
 del "C:\Windows\Temp\7z.exe"
 del "C:\Windows\Temp\ffmpeg.7z"
