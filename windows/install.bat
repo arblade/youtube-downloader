@@ -17,6 +17,7 @@ powershell -Command "& 'C:\Program Files\7-Zip\7z.exe' e C:\Windows\Temp\ffmpeg.
 @echo [info] Copy of Youtube-Downloader files
 cd /d %~dp0
 robocopy ./youtube-downloader/ "C:\Program Files\youtube-downloader" /E
+icacls "C:\Program Files\youtube-downloader\config.txt" /grant "*S-1-5-32-545:(W)"
 xcopy youtube-downloader\Youtube-Downloader.lnk %UserProfile%\Desktop\
 @echo [info] Deleting archive...
 @echo [info] Deleting temp files...
