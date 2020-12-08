@@ -14,18 +14,6 @@ Future improvements :
 - correct bugs of first launch : Done
 - intelligent download with geo parameters
 - list of link to download
-## Linux
-### Installation
-1. Clone the repo
-2. Create a config.txt file like bellow :
-```
-# Configuration file
-
-# Put there the absolute path to the folder where you want to put by default music and video downloaded (like the example bellow :
-default_path_music=/home/arblade/Musics/myfolder
-default_path_video=/home/arblade/Videos/myfolder
-```
-3. Launch `yt-downloader.py` with Python 3.6
 
 ## Windows
 ### Installation 
@@ -43,6 +31,19 @@ Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/d
 - Execute the `install.bat` (which is in the `windows` folder) as admin. You can before read all instructions, to check that this file is safe.
 - To understand what is done go through this file : [click there](#explanation)
 - Finally you can delete extracted files
+
+## Linux
+### Installation
+1. Clone the repo
+2. Create a config.txt file like bellow :
+```
+# Configuration file
+
+# Put there the absolute path to the folder where you want to put by default music and video downloaded (like the example bellow :
+default_path_music=/home/arblade/Musics/myfolder
+default_path_video=/home/arblade/Videos/myfolder
+```
+3. Launch `yt-downloader.py` with Python 3.6
 
 ## Use 
 
