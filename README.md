@@ -40,8 +40,9 @@ Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/d
 
 - Donwload the `.zip`
 - Extract it where you want in your computer.
-- Execute the `install.bat` as admin. You can before read all instructions, to check that this file is safe.
+- Execute the `install.bat` (which is in the `windows` folder) as admin. You can before read all instructions, to check that this file is safe.
 - To understand what is done go through this file : [click there](#explanation)
+- Finally you can delete extracted files
 
 ## Use 
 
