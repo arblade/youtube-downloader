@@ -23,7 +23,7 @@ Future improvements :
 
 1. Simple :
 
-Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe). If you installed this app before and you want the last version try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe)
+Here is the [Setup.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup.exe). If you installed this app before and you want the last version try : [Setup_special.exe](https://github.com/Arblade/youtube-downloader/releases/download/v3.1.2/Setup_special.exe)
 
 If you you want to check what is run by this `.exe`, [click there](#explanation_exe)
 
